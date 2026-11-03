@@ -13,7 +13,7 @@ python -m http.server 8080
 e acesse http://localhost:8080.
 
 ## Checklist antes de publicar
-- [ ] Os dois botões de WhatsApp abrem a conversa certa (Sevilha 96901-0851, Jardim do Sul 93385-3563)
+- [ ] Os botões de WhatsApp (agendar, Táxi Pet, Clube VIP) abrem (11) 96901-0851 com a mensagem certa
 - [ ] QR code abre o Instagram @petcharmestetica
 - [ ] Testado em celular de verdade (menu, galeria, rolagem das fotos do salão)
 - [ ] Sem erros no console

@@ -32,24 +32,26 @@ Endereço: https://caiodoc.github.io/petcharm/
 1. **Início** — headline, botão de agendamento e polaroids do estúdio
 2. **Nosso jeito** (`#cuidado`) — princípios de atendimento
 3. **Serviços** (`#servicos`) — banho, hidratação, tosas, higiênica, carding, desembolo
+   + **Táxi Pet** e **Clube VIP** (`#taxi-vip`), com botões para o WhatsApp
 4. **Estilos de tosa** (`#estilos`) — 10 estilos com filtro
 5. **Estúdio** (`#estudio`) — mural de polaroids com galeria ampliada
 6. **Direto do salão** — fotos reais de celular (rolagem lateral)
-7. **Como agendar** (`#agendar`) — 3 passos
-8. **Dúvidas** (`#duvidas`) — critérios, pagamento, filhotes
-9. **Contato** (`#contato`) — WhatsApp de cada unidade + QR code do Instagram
+7. **Avaliações** (`#avaliacoes`) — nota do Google (4,4 · 33 avaliações) e comentários 5 estrelas
+8. **Como agendar** (`#agendar`) — 3 passos (pet → serviços → horário)
+9. **Dúvidas** (`#duvidas`) — critérios, Táxi Pet, pagamento, filhotes
+10. **Contato** (`#contato`) — WhatsApp + QR code do Instagram
 
-## Contatos usados no site
+## Dados usados no site
 
-| Unidade | Endereço | WhatsApp |
-|---|---|---|
-| Jardim Sevilha | Av. Norte e Sul, 207 | (11) 96901-0851 |
-| Jardim do Sul | Av. Sebastião Silvério, 169 (em frente à Clínica Santa Helena) | (11) 93385-3563 |
-
-Instagram: [@petcharmestetica](https://www.instagram.com/petcharmestetica/)
+- **Unidade:** Jardim Sevilha — Av. Norte e Sul (Av. Dr. Tancredo de Almeida Neves), 207, sala 4, CEP 12914-160
+- **WhatsApp:** (11) 96901-0851
+- **Táxi Pet:** segunda a sexta, das 8h às 17h
+- **Google:** nota 4,4 com 33 avaliações (conferido em 03/11/2026) — https://share.google/drHGLipDYlrS1VbYZ
+- **Instagram:** [@petcharmestetica](https://www.instagram.com/petcharmestetica/)
 
 ## Pendências sugeridas
 
 - Horário de funcionamento (não informado nos materiais — não foi inventado)
 - Domínio próprio e `og:image` com URL absoluta após publicar
-- Depoimentos reais de clientes (Google / Instagram), se a dona quiser
+- Atualizar a nota e os comentários do Google de tempos em tempos (seção `#avaliacoes` e JSON-LD no `<head>`)
+- Valores/condições do Clube VIP, se a dona quiser divulgar

@@ -39,16 +39,6 @@
     links.forEach((_, id) => { const s = document.getElementById(id); if (s) spy.observe(s); });
   }
 
-  /* ---------- Escolha de unidade (WhatsApp) ---------- */
-  const picker = $('#picker');
-  const openPicker = () => {
-    if (typeof picker.showModal === 'function') picker.showModal();
-    else document.getElementById('contato').scrollIntoView();
-  };
-  $$('[data-agendar]').forEach((b) => b.addEventListener('click', openPicker));
-  picker.addEventListener('click', (e) => { if (e.target === picker) picker.close(); });
-  $$('.picker__opt', picker).forEach((a) => a.addEventListener('click', () => picker.close()));
-
   /* ---------- Filtro dos estilos de tosa ---------- */
   const chips = $$('.chip');
   const cuts = $$('.cut');

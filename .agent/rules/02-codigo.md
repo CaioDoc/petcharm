@@ -20,10 +20,10 @@
 ## Contato
 - **O site não tem formulário.** Todo contato vai para o WhatsApp da unidade.
 - Links de WhatsApp: `https://wa.me/55DDDNUMERO?text=...` com mensagem pré-preenchida (URL-encoded).
-- Qualquer botão com `data-agendar` abre o seletor de unidade (`#picker`).
+- Todos os botões de agendar são links diretos `wa.me` para (11) 96901-0851 (não há seletor de unidade).
 - O Instagram aparece como QR code (`img/web/qr-instagram.svg`) + link de texto.
 
 ## Testes antes de entregar
 1. Abrir no navegador em 1366px e 390px de largura.
-2. Conferir: menu mobile, seletor de unidade, filtros de tosa, galeria (setas, teclado, deslizar).
+2. Conferir: menu mobile, links do WhatsApp, filtros de tosa, galeria (setas, teclado, deslizar).
 3. Console sem erros.
