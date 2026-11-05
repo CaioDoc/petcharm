@@ -19,7 +19,14 @@ e acesse http://localhost:8080.
 - [ ] Sem erros no console
 - [ ] Pasta `img/web` presente; originais (`img/About` etc.) podem ficar fora do upload
 
-## Publicar (GitHub Pages — já configurado)
+## Publicar (Railway — produção)
+Projeto na Railway ligado ao repositório `CaioDoc/petcharm`, branch `main`, com deploy automático.
+O build usa o `Dockerfile` (Caddy servindo `index.html`, `css/`, `js/`, `img/web/` na porta 8080).
+- Endereço Railway: https://petcharm-production.up.railway.app
+- Domínio: petcharmestetica.com.br e www (DNS na Cloudflare; registros CNAME + TXT `_railway-verify` informados pela Railway)
+- Se mudar a pasta de imagens ou criar arquivos públicos novos, inclua no `Dockerfile` (linhas `COPY`).
+
+## GitHub Pages (espelho)
 Repositório: https://github.com/CaioDoc/petcharm
 Cada `git push` na branch `main` dispara `.github/workflows/deploy.yml`, que publica
 em https://caiodoc.github.io/petcharm/ em 1–2 minutos. Acompanhe na aba **Actions**.

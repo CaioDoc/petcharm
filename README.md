@@ -22,9 +22,10 @@ AGENTS.md             ponto de entrada para agentes de IA
 ## Publicação
 
 ### Railway (produção)
-O site roda na Railway com um container **Caddy** (`Dockerfile` + `Caddyfile` + `railway.json`).
+O site roda na Railway com um container **Caddy** (`Dockerfile` + `Caddyfile`), na porta 8080.
 Cada push na `main` gera um novo deploy automaticamente. A imagem leva só `index.html`, `css/`, `js/` e `img/web/`.
-O domínio próprio (Registro.br) aponta para a Railway — veja a skill `petcharm-publicar`.
+Endereços: https://petcharm-production.up.railway.app (Railway) e
+https://petcharmestetica.com.br / https://www.petcharmestetica.com.br (domínio próprio, DNS na Cloudflare).
 
 ### GitHub Pages (espelho)
 
