@@ -1,0 +1,10 @@
+.git
+.github
+.agent
+tools
+img/About
+img/Logo
+img/Picture
+img/Studio
+*.md
+*.bat

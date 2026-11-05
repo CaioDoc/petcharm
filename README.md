@@ -21,6 +21,13 @@ AGENTS.md             ponto de entrada para agentes de IA
 
 ## Publicação
 
+### Railway (produção)
+O site roda na Railway com um container **Caddy** (`Dockerfile` + `Caddyfile` + `railway.json`).
+Cada push na `main` gera um novo deploy automaticamente. A imagem leva só `index.html`, `css/`, `js/` e `img/web/`.
+O domínio próprio (Registro.br) aponta para a Railway — veja a skill `petcharm-publicar`.
+
+### GitHub Pages (espelho)
+
 O site é publicado automaticamente no **GitHub Pages** a cada push na branch `main`
 (workflow em `.github/workflows/deploy.yml`). Só `index.html`, `css/`, `js/` e `img/web/`
 vão para o ar — as fotos originais ficam apenas no repositório.
